@@ -1,0 +1,7 @@
+parenthesis_qbwc_app:
+    resource: "@ParenthesisQBWCAppBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
