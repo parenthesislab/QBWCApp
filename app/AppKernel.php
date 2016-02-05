@@ -18,7 +18,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new Parenthesis\QBWCAppBundle\ParenthesisQBWCAppBundle(),
             new \Aws\Symfony\AwsBundle(),
-            new Consolibyte\Quickbooks\Quickbooks(),
+            // new Consolibyte\Quickbooks\Quickbooks(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
