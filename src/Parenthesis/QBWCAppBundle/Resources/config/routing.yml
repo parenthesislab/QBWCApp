@@ -1,3 +1,0 @@
-parenthesis_qbwc_app_homepage:
-    path:     /
-    defaults: { _controller: ParenthesisQBWCAppBundle:Default:index }
